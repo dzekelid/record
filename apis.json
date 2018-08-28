@@ -1,0 +1,470 @@
+{
+	"name": "Streadata.io API Gallery - Record",
+	"description": "This is a repository of record APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/record.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://record.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Twilio",
+			"x-api-slug": "twilio",
+			"description": "Cloud communications platform for building SMS, Voice & Messaging applications on an API built for global scale. Get started with a free trial.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg",
+			"humanURL": "http://www.twilio.com",
+			"baseURL": "https://api.twilio.com//2010-04-01/",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/twilio/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenDataSoft",
+			"x-api-slug": "opendatasoft",
+			"description": "OpenDataSoft is a cloud-based turnkey platform for data publishing and API management. Its interface is intuitively designed to empower anyone, regardless of technical skills, to upload easy-to-understand Open Data, or to even share data within an admi...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg",
+			"humanURL": "http://opendatasoft.com",
+			"baseURL": "https://public.opendatasoft.com//api/v2",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/opendatasoft/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Shopify",
+			"x-api-slug": "shopify",
+			"description": "Shopify is a commerce platform that allows anyone to easily sell online at a retail location and everywhere in between. It offers a professional online storefront, a payment solution to accept credit cards, and the Shopify POS application to power retail sales.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png",
+			"humanURL": "https://www.shopify.com/",
+			"baseURL": "https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/shopify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BetterDoctor",
+			"x-api-slug": "betterdoctor",
+			"description": "BetterDoctor helps people find and connect to the best doctors through our consumer app, doctor marketing services, and API. Our mission is to help increase transparency in healthcare and help consumers make better decisions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18991-betterdoctor.jpg",
+			"humanURL": "https://developer.betterdoctor.com",
+			"baseURL": "https://api.betterdoctor.com//2016-03-01",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/betterdoctor/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "3dcart",
+			"x-api-slug": "3dcart",
+			"description": "The 3dcart shopping cart software is a complete web store solution for anyone looking to start an online business, add a shopping cart to their existing website, or to replace their existing shopping cart platform. 3dcart includes the latest, most innovative features, tools, support and technology needed to build, promote and grow your online business.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg",
+			"humanURL": "http://www.3dcart.com",
+			"baseURL": "https://apirest.3dcart.com//",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/3dcart/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS X-Ray",
+			"x-api-slug": "aws-xray",
+			"description": "AWS X-Ray helps developers analyze and debug production, distributed applications, such as those built using a microservices architecture. With X-Ray, you can understand how your application and its underlying services are performing to identify and troubleshoot the root cause of performance issues and errors. X-Ray provides an end-to-end view of requests as they travel through your application, and shows a map of your applications underlying components. You can use X-Ray to analyze both applications in development and in production, from simple three-tier applications to complex microservices applications consisting of thousands of services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-xray.png",
+			"humanURL": "https://aws.amazon.com/xray/",
+			"baseURL": ":///",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/aws-xray/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Config",
+			"x-api-slug": "aws-config",
+			"description": "AWS Config is a fully managed service that provides you with an AWS resource inventory, configuration history, and configuration change notifications to enable security and governance. Config Rules enables you to create rules that automatically check the configuration of AWS resources recorded by AWS Config.With AWS Config, you can discover existing and deleted AWS resources, determine your overall compliance against rules, and dive into configuration details of a resource at any point in time. These capabilities enable compliance auditing, security analysis, resource change tracking, and troubleshooting.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png",
+			"humanURL": "https://aws.amazon.com/config/",
+			"baseURL": ":///",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/aws-config/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Service Catalog",
+			"x-api-slug": "aws-service-catalog",
+			"description": "AWS Service Catalog allows organizations to create and manage catalogs of IT services that are approved for use on AWS. These IT services can include everything from virtual machine images, servers, software, and databases to complete multi-tier application architectures. AWS Service Catalog allows you to centrally manage commonly deployed IT services, and helps you achieve consistent governance and meet your compliance requirements, while enabling users to quickly deploy only the approved IT services they need.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png",
+			"humanURL": "https://aws.amazon.com/servicecatalog/",
+			"baseURL": ":///",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/aws-service-catalog/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Kinesis",
+			"x-api-slug": "aws-kinesis",
+			"description": "Amazon Kinesis Firehose is the easiest way to load streaming data into AWS. It can capture, transform, and load streaming data into Amazon Kinesis Analytics, Amazon S3, Amazon Redshift, and Amazon Elasticsearch Service, enabling near real-time analytics with existing business intelligence tools and dashboards you are already using today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonKinesis_AmazonKinesisFirehose.png",
+			"humanURL": "https://aws.amazon.com/kinesis/",
+			"baseURL": ":///",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/aws-kinesis/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Cognito",
+			"x-api-slug": "aws-cognito",
+			"description": "Amazon Cognito lets you easily add user sign-up and sign-in to your mobile and web apps. With Amazon Cognito, you also have the options to authenticate users through social identity providers such as Facebook, Twitter, or Amazon, with SAML identity solutions, or by using your own identity system. In addition, Amazon Cognito enables you to save data locally on users devices, allowing your applications to work even when the devices are offline. You can then synchronize data across users devices so that their app experience remains consistent regardless of the device they use. With Amazon Cognito, you can focus on creating great app experiences instead of worrying about building, securing, and scaling a solution to handle user management, authentication, and sync across devices.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png",
+			"humanURL": "https://aws.amazon.com/cognito/",
+			"baseURL": "https:///",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/aws-cognito/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Auto Scaling",
+			"x-api-slug": "aws-auto-scaling",
+			"description": "Auto Scaling helps you maintain application availability and allows you to scale yourAmazon EC2capacity up or down automatically according to conditions you define. You can use Auto Scaling to help ensure that you are running your desired number of Amazon EC2 instances. Auto Scaling can also automatically increase the number of Amazon EC2 instances during demand spikes to maintain performance and decrease capacity during lulls to reduce costs. Auto Scaling is well suited both to applications that have stable demand patterns or that experience hourly, daily, or weekly variability in usage.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AutoScaling.png",
+			"humanURL": "https://aws.amazon.com/autoscaling/",
+			"baseURL": ":///",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/aws-auto-scaling/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Route 53",
+			"x-api-slug": "aws-route-53",
+			"description": "Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service. It is designed to give developers and businesses an extremely reliable and cost effective way to route end users to Internet applications by translating names like www.example.com into the numeric IP addresses like 192.0.2.1 that computers use to connect to each other. Amazon Route 53 is fully compliant with IPv6 as well.Amazon Route 53 effectively connects user requests to infrastructure running in AWS &ndash; such as Amazon EC2 instances, Elastic Load Balancing load balancers, or Amazon S3 buckets &ndash; and can also be used to route users to infrastructure outside of AWS. You can use Amazon Route 53 to configure DNS health checks to route traffic to healthy endpoints or to independently monitor the health of your application and its endpoints. Amazon Route 53 Traffic Flow makes it easy for you to manage traffic globally through a variety of routing types, including Latency Based Routing, Geo DNS, and Weighted Round Robin&mdash;all of which can be combined with DNS Failover in order to enable a variety of low-latency, fault-tolerant architectures. Using Amazon Route 53 Traffic Flow&rsquo;s simple visual editor, you can easily manage how your end-users are routed to your application&rsquo;s endpoints&mdash;whether in a single AWS region or distributed around the globe. Amazon Route 53 also offers Domain Name Registration &ndash; you can purchase and manage domain names such as example.com and Amazon Route 53 will automatically configure DNS settings for your domains.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png",
+			"humanURL": "https://aws.amazon.com/route53/",
+			"baseURL": ":///",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/aws-route-53/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Amadeus",
+			"x-api-slug": "amadeus",
+			"description": "Amadeus travel technology helps businesses connect to the global travel ecosystem, manage operations more effectively and serve travellers better than ever",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg",
+			"humanURL": "https://amadeus.com",
+			"baseURL": "https://api.sandbox.amadeus.com//v1.2",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/amadeus/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SAP",
+			"x-api-slug": "sap",
+			"description": "Get software and technology solutions from SAP, the leader in business applications.  Run simple with the best in cloud, analytics, mobile and IT solutions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg",
+			"humanURL": "https://www.sap.com/index.html",
+			"baseURL": "https://sandbox.api.sap.com//translationhub/api/v1",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/sap/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rebilly",
+			"x-api-slug": "rebilly",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png",
+			"humanURL": "https://www.rebilly.com",
+			"baseURL": "https://api.rebilly.com//v2.1",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/rebilly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SalesLoft",
+			"x-api-slug": "salesloft",
+			"description": "SalesLoft, the leading sales engagement platform, transforms the way sellers engage with their customers by delivering a better selling experience. Our sales engagement platform helps teams set and execute on a cadence of phone, email, and social communications to convert more target accounts into customer accounts. The platform equips sales leaders with new capabilities to test, learn and adapt to ensure their sales reps execute on the most effective selling process for their account-based approach. SalesLoft delivers access to an extensive ecosystem of 3rd party integrations allowing teams to perform all their sales engagement from a single platform.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/salesloft.png",
+			"humanURL": "http://salesloft.com",
+			"baseURL": "https://api.salesloft.com//",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/salesloft/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Backupify",
+			"x-api-slug": "backupify",
+			"description": "",
+			"image": "",
+			"humanURL": "http://backupify.com",
+			"baseURL": "https://api.backupify.com//",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/backupify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Flowroute",
+			"x-api-slug": "flowroute",
+			"description": "Flowroute is the leading provider of cloud-based communications and is based in Seattle, Washington.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28795-developer-flowroute-com.jpg",
+			"humanURL": "http://developer.flowroute.com",
+			"baseURL": "https:////",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/flowroute/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NxtPort",
+			"x-api-slug": "nxtport",
+			"description": "NxtPort opens the gates to the Port of the future. This project is a milestone in the digitalization of logistics and cargo.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28835-www-nxtport-eu.jpg",
+			"humanURL": "https://www.nxtport.eu",
+			"baseURL": "https://api-sb.nxtport.eu//PortCallPlus/v1",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/nxtport/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Kentico Cloud",
+			"x-api-slug": "kentico-cloud",
+			"description": "Kentico Cloud is the #1 CMS that enables digital teams to collaborate quickly to create engaging personalized experiences across any device. Free 30-day trial!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg",
+			"humanURL": "https://kenticocloud.com/",
+			"baseURL": "https://deliver.kenticocloud.com//",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/kentico-cloud/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LogMeIn",
+			"x-api-slug": "logmein",
+			"description": "LogMeIn, Inc. is a provider of software as a service and cloud-based remote connectivity services for collaboration, IT management and customer engagement, founded in 2003 and based in Boston, Massachusetts.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg",
+			"humanURL": "http://www.LogMeInInc.com",
+			"baseURL": "https://api.getgo.com//G2W/rest/organizers",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/logmein/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Record",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Record",
+	"include": [
+		{
+			"name": "Twilio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/twilio/apis.yaml"
+		},
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "OpenDataSoft",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/opendatasoft/apis.yaml"
+		},
+		{
+			"name": "Shopify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/shopify/apis.yaml"
+		},
+		{
+			"name": "BetterDoctor",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/betterdoctor/apis.yaml"
+		},
+		{
+			"name": "3dcart",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/3dcart/apis.yaml"
+		},
+		{
+			"name": "AWS X-Ray",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/aws-xray/apis.yaml"
+		},
+		{
+			"name": "AWS Config",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/aws-config/apis.yaml"
+		},
+		{
+			"name": "AWS Service Catalog",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/aws-service-catalog/apis.yaml"
+		},
+		{
+			"name": "AWS Kinesis",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/aws-kinesis/apis.yaml"
+		},
+		{
+			"name": "AWS Cognito",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/aws-cognito/apis.yaml"
+		},
+		{
+			"name": "AWS Auto Scaling",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/aws-auto-scaling/apis.yaml"
+		},
+		{
+			"name": "AWS Route 53",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/aws-route-53/apis.yaml"
+		},
+		{
+			"name": "Amadeus",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/amadeus/apis.yaml"
+		},
+		{
+			"name": "SAP",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/sap/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Rebilly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/rebilly/apis.yaml"
+		},
+		{
+			"name": "SalesLoft",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/salesloft/apis.yaml"
+		},
+		{
+			"name": "Backupify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/backupify/apis.yaml"
+		},
+		{
+			"name": "Flowroute",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/flowroute/apis.yaml"
+		},
+		{
+			"name": "NxtPort",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/nxtport/apis.yaml"
+		},
+		{
+			"name": "Kentico Cloud",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/kentico-cloud/apis.yaml"
+		},
+		{
+			"name": "LogMeIn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/logmein/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}

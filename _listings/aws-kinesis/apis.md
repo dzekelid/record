@@ -10,11 +10,38 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Record
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/aws-kinesis/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Kinesis Firehose API - Put Record
+  x-api-slug: actionputrecord-get
+  description: writes a single data record into an Amazon Kinesis Firehose delivery
+    stream.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonKinesis_AmazonKinesisFirehose.png
+  humanURL: https://aws.amazon.com/kinesis/
+  baseURL: :///
+  tags: Amazon Web Services, Real Time, Data, Stack Network, Streaming, API Service
+    Provider, API Service Provider, API Provider, SDIO Competition, Databases, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/aws-kinesis/actionputrecord-get-openapi.md
+- name: AWS Kinesis Firehose API - Put Record Batch
+  x-api-slug: actionputrecordbatch-get
+  description: |-
+    writes multiple data records into a delivery stream in a single call, which can
+             achieve higher throughput per producer than when writing single records.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonKinesis_AmazonKinesisFirehose.png
+  humanURL: https://aws.amazon.com/kinesis/
+  baseURL: :///
+  tags: Amazon Web Services, Real Time, Data, Stack Network, Streaming, API Service
+    Provider, API Service Provider, API Provider, SDIO Competition, Databases, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/aws-kinesis/actionputrecordbatch-get-openapi.md
 x-common:
 - type: x-hacker-news-search
   url: Amazon Kinesis

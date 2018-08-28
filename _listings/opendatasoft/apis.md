@@ -9,11 +9,22 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opend
 x-kinRank: "7"
 x-alexaRank: "323884"
 tags: Record
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/opendatasoft/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: OpenDataSoft - Get Source Datasets Dataset Records Record
+  x-api-slug: sourcedatasetsdataset-idrecordsrecord-id-get
+  description: Retrieve a single record based on its ID.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2716-opendatasoft.jpg
+  humanURL: http://opendatasoft.com
+  baseURL: https://public.opendatasoft.com//api/v2
+  tags: Data, Government, Technology, SaaS, Enterprise, Relative Data, General Data,
+    Service API, Relative StreamRank, Streams, Cities
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/opendatasoft/sourcedatasetsdataset-idrecordsrecord-id-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://opencorporates.api.gallery.streamdata.io

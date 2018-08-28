@@ -6,11 +6,46 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Record
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/rebilly/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Rebilly - Retrieve a File Record
+  x-api-slug: filesid-get
+  description: Retrieve a File with specified identifier string
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/rebilly/filesid-get-openapi.md
+- name: Rebilly - Retrieve the record from the change history of the set of rules
+    for a custom event
+  x-api-slug: customeventsidruleshistoryversion-get
+  description: |-
+    Retrieve the record from the change history of the set of rules for the selected custom event.
+    A history record is created each time you change the rules.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/rebilly/customeventsidruleshistoryversion-get-openapi.md
+- name: Rebilly - Retrieve the record from the change history of the set of rules
+  x-api-slug: eventseventtyperuleshistoryversion-get
+  description: |-
+    Retrieve the record from the change history of the selected set of rules.
+    A history record is created each time you change the rules.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/rebilly/eventseventtyperuleshistoryversion-get-openapi.md
 x-common:
 - type: x-website
   url: https://www.rebilly.com

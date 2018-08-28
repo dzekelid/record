@@ -7,11 +7,23 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-
 x-kinRank: "8"
 x-alexaRank: "1965"
 tags: Record
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/sap/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Manufacturing Network Customer APIs - Adds a record to the order history
+  x-api-slug: ordersordernumberhistory-post
+  description: "Adds a record to the history of an order.   \nThe order number is
+    sent in the message body of the Order Created event.  \nThe login user must be
+    from the additive manufacturing supplier."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28252-www-sap-com.jpg
+  humanURL: https://www.sap.com/index.html
+  baseURL: https://hostname//dim/api
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/sap/ordersordernumberhistory-post-openapi.md
 x-common:
 - type: x-website
   url: https://www.sap.com/index.html

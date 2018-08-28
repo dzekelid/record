@@ -8,11 +8,28 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18991-bett
 x-kinRank: "8"
 x-alexaRank: "625342"
 tags: Record
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/betterdoctor/apis.md
 specificationVersion: "0.14"
 apis:
+- name: BetterDoctor - Add a new record
+  x-api-slug: validations-post
+  description: 'Creates validation document using the request body, and returns the
+    document created with unique identifier in Location header for reference. This
+    is how validation data is submitted to BetterDoctor for addition to the API. The
+    posted document must conform to BetterDoctor???s JSON schema for validation objects,
+    see included model specification for more information. <br><h4 style=''margin-bottom:
+    0px !important;''> Return Headers </h4> <div>Location: The uid of the created
+    document. This can be used to access the document again without executing a search.</div>'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18991-betterdoctor.jpg
+  humanURL: https://developer.betterdoctor.com
+  baseURL: https://api.betterdoctor.com//2016-03-01
+  tags: Healthcare, Doctors, Technology, SaaS, Mobile, Insurance, API Provider, Profiles,
+    General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/betterdoctor/validations-post-openapi.md
 - name: BetterDoctor - Record search
   x-api-slug: validations-get
   description: 'The endpoint can be used to identify providers with validation data.

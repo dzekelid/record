@@ -12,11 +12,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Record
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/aws-service-catalog/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS Service Catalog API - Describe Record
+  x-api-slug: actiondescriberecord-get
+  description: Retrieves a paginated list of the full details of a specific request.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSServiceCatalog.png
+  humanURL: https://aws.amazon.com/servicecatalog/
+  baseURL: :///
+  tags: Amazon Web Services, Discovery, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/record/master/_listings/aws-service-catalog/actiondescriberecord-get-openapi.md
 - name: AWS Service Catalog API - List Record History
   x-api-slug: actionlistrecordhistory-get
   description: |-
